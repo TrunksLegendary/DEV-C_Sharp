@@ -28,13 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("Label");
-            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("Button");
-            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("Checkbox");
-            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("Root", new System.Windows.Forms.TreeNode[] {
-            treeNode1,
-            treeNode2,
-            treeNode3});
+            System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("Label");
+            System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("Button");
+            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("Checkbox");
+            System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("Root", new System.Windows.Forms.TreeNode[] {
+            treeNode5,
+            treeNode6,
+            treeNode7});
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -176,16 +176,16 @@
             // 
             this.treeView1.Location = new System.Drawing.Point(404, 60);
             this.treeView1.Name = "treeView1";
-            treeNode1.Name = "Node1";
-            treeNode1.Text = "Label";
-            treeNode2.Name = "Node2";
-            treeNode2.Text = "Button";
-            treeNode3.Name = "Node3";
-            treeNode3.Text = "Checkbox";
-            treeNode4.Name = "Node0";
-            treeNode4.Text = "Root";
+            treeNode5.Name = "Node1";
+            treeNode5.Text = "Label";
+            treeNode6.Name = "Node2";
+            treeNode6.Text = "Button";
+            treeNode7.Name = "Node3";
+            treeNode7.Text = "Checkbox";
+            treeNode8.Name = "Node0";
+            treeNode8.Text = "Root";
             this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode4});
+            treeNode8});
             this.treeView1.Size = new System.Drawing.Size(119, 105);
             this.treeView1.TabIndex = 8;
             this.treeView1.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView1_AfterSelect);
@@ -215,6 +215,7 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
