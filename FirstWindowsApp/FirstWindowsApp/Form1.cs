@@ -22,9 +22,9 @@ namespace FirstWindowsApp
 
         }
 
-        private void checkBox2_CheckedChanged(object sender, EventArgs e)
+        private void CheckBox2_CheckedChanged(object sender, EventArgs e)
         {
-
+            
         }
 
         private void lstCity_SelectedIndexChanged(object sender, EventArgs e)
@@ -38,6 +38,10 @@ namespace FirstWindowsApp
             string name = txtName.Text;
             string address = txtAddress.Text;
 
+            if (chkASP.Checked)
+            {
+                MessageBox.Show("ASP Checked");
+            }
             MessageBox.Show(name + address);
         }
 
@@ -49,6 +53,17 @@ namespace FirstWindowsApp
         private void Form1_Load(object sender, EventArgs e)
         {
 
+
+        }
+
+        private void chkC_CheckedChanged(object sender, EventArgs e)
+        {
+           
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
 
         }
     }

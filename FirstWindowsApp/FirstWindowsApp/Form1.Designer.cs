@@ -28,13 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("Label");
-            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("Button");
-            System.Windows.Forms.TreeNode treeNode11 = new System.Windows.Forms.TreeNode("Checkbox");
-            System.Windows.Forms.TreeNode treeNode12 = new System.Windows.Forms.TreeNode("Root", new System.Windows.Forms.TreeNode[] {
-            treeNode9,
-            treeNode10,
-            treeNode11});
+            System.Windows.Forms.TreeNode treeNode21 = new System.Windows.Forms.TreeNode("Label");
+            System.Windows.Forms.TreeNode treeNode22 = new System.Windows.Forms.TreeNode("Button");
+            System.Windows.Forms.TreeNode treeNode23 = new System.Windows.Forms.TreeNode("Checkbox");
+            System.Windows.Forms.TreeNode treeNode24 = new System.Windows.Forms.TreeNode("Root", new System.Windows.Forms.TreeNode[] {
+            treeNode21,
+            treeNode22,
+            treeNode23});
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -79,6 +79,7 @@
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "User Details";
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // label2
             // 
@@ -153,6 +154,7 @@
             this.chkC.TabIndex = 5;
             this.chkC.Text = "C#";
             this.chkC.UseVisualStyleBackColor = true;
+            this.chkC.CheckedChanged += new System.EventHandler(this.chkC_CheckedChanged);
             // 
             // chkASP
             // 
@@ -163,7 +165,7 @@
             this.chkASP.TabIndex = 6;
             this.chkASP.Text = "ASP";
             this.chkASP.UseVisualStyleBackColor = true;
-            this.chkASP.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
+            this.chkASP.CheckedChanged += new System.EventHandler(this.CheckBox2_CheckedChanged);
             // 
             // btnSubmit
             // 
@@ -179,16 +181,16 @@
             // 
             this.treeView1.Location = new System.Drawing.Point(404, 60);
             this.treeView1.Name = "treeView1";
-            treeNode9.Name = "Node1";
-            treeNode9.Text = "Label";
-            treeNode10.Name = "Node2";
-            treeNode10.Text = "Button";
-            treeNode11.Name = "Node3";
-            treeNode11.Text = "Checkbox";
-            treeNode12.Name = "Node0";
-            treeNode12.Text = "Root";
+            treeNode21.Name = "Node1";
+            treeNode21.Text = "Label";
+            treeNode22.Name = "Node2";
+            treeNode22.Text = "Button";
+            treeNode23.Name = "Node3";
+            treeNode23.Text = "Checkbox";
+            treeNode24.Name = "Node0";
+            treeNode24.Text = "Root";
             this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode12});
+            treeNode24});
             this.treeView1.Size = new System.Drawing.Size(119, 105);
             this.treeView1.TabIndex = 8;
             this.treeView1.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView1_AfterSelect);
