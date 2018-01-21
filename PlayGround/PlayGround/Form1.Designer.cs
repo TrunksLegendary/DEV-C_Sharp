@@ -1,6 +1,6 @@
 ﻿namespace PlayGround
 {
-    partial class Form1
+    partial class MyPlayground
     {
         /// <summary>
         /// Required designer variable.
@@ -145,7 +145,7 @@
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
-            // Form1
+            // MyPlayground
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -161,8 +161,8 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "MyPlayground";
+            this.Text = "My Playground App";
             this.ResumeLayout(false);
             this.PerformLayout();
 
