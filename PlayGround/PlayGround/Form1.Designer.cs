@@ -33,13 +33,13 @@
             this.label2 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button7 = new System.Windows.Forms.Button();
+            this.Btn_Exit = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.Btn_Parse = new System.Windows.Forms.Button();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.SuspendLayout();
             // 
@@ -77,14 +77,14 @@
             this.textBox1.Size = new System.Drawing.Size(246, 363);
             this.textBox1.TabIndex = 19;
             // 
-            // button7
+            // Btn_Exit
             // 
-            this.button7.Location = new System.Drawing.Point(417, 483);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(75, 23);
-            this.button7.TabIndex = 18;
-            this.button7.Text = "button7";
-            this.button7.UseVisualStyleBackColor = true;
+            this.Btn_Exit.Location = new System.Drawing.Point(417, 483);
+            this.Btn_Exit.Name = "Btn_Exit";
+            this.Btn_Exit.Size = new System.Drawing.Size(75, 23);
+            this.Btn_Exit.TabIndex = 18;
+            this.Btn_Exit.Text = "Exit";
+            this.Btn_Exit.UseVisualStyleBackColor = true;
             // 
             // button6
             // 
@@ -131,14 +131,14 @@
             this.button2.Text = "button2";
             this.button2.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // Btn_Parse
             // 
-            this.button1.Location = new System.Drawing.Point(21, 19);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 12;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.Btn_Parse.Location = new System.Drawing.Point(21, 19);
+            this.Btn_Parse.Name = "Btn_Parse";
+            this.Btn_Parse.Size = new System.Drawing.Size(75, 23);
+            this.Btn_Parse.TabIndex = 12;
+            this.Btn_Parse.Text = "Parse";
+            this.Btn_Parse.UseVisualStyleBackColor = true;
             // 
             // contextMenuStrip1
             // 
@@ -154,13 +154,13 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button7);
+            this.Controls.Add(this.Btn_Exit);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.Btn_Parse);
             this.Name = "MyPlayground";
             this.Text = "My Playground App";
             this.ResumeLayout(false);
@@ -174,13 +174,13 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button Btn_Exit;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button Btn_Parse;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
     }
 }

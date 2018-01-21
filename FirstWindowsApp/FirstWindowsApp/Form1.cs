@@ -38,6 +38,7 @@ namespace FirstWindowsApp
             string name = txtName.Text;
             string address = txtAddress.Text;
 
+            txtName.Text = "Hello";
             if (chkASP.Checked)
             {
                 MessageBox.Show("ASP Checked");
@@ -63,6 +64,16 @@ namespace FirstWindowsApp
         }
 
         private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtAddress_TextChanged(object sender, EventArgs e)
         {
 
         }
