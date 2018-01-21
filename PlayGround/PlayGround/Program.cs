@@ -16,7 +16,7 @@ namespace PlayGround
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MyPlayground());
+            Application.Run(new Form1());
         }
     }
 }
