@@ -64,6 +64,7 @@
             this.TxtB_Output.Location = new System.Drawing.Point(411, 109);
             this.TxtB_Output.Multiline = true;
             this.TxtB_Output.Name = "TxtB_Output";
+            this.TxtB_Output.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.TxtB_Output.Size = new System.Drawing.Size(393, 461);
             this.TxtB_Output.TabIndex = 2;
             this.TxtB_Output.TextChanged += new System.EventHandler(this.TxtB_Output_TextChanged);
@@ -76,7 +77,7 @@
             // 
             this.Lbl_FileName.AutoSize = true;
             this.Lbl_FileName.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_FileName.Location = new System.Drawing.Point(93, 22);
+            this.Lbl_FileName.Location = new System.Drawing.Point(10, 38);
             this.Lbl_FileName.Name = "Lbl_FileName";
             this.Lbl_FileName.Size = new System.Drawing.Size(96, 13);
             this.Lbl_FileName.TabIndex = 5;
@@ -84,7 +85,7 @@
             // 
             // Lbl_Exit
             // 
-            this.Lbl_Exit.Location = new System.Drawing.Point(715, 12);
+            this.Lbl_Exit.Location = new System.Drawing.Point(729, 576);
             this.Lbl_Exit.Name = "Lbl_Exit";
             this.Lbl_Exit.Size = new System.Drawing.Size(75, 23);
             this.Lbl_Exit.TabIndex = 6;
