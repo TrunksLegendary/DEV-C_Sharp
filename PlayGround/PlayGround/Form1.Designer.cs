@@ -32,12 +32,12 @@
             this.TxtB_Input = new System.Windows.Forms.TextBox();
             this.TxtB_Output = new System.Windows.Forms.TextBox();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.Lbl_FileName = new System.Windows.Forms.Label();
             this.Lbl_Exit = new System.Windows.Forms.Button();
             this.Lbl_Input = new System.Windows.Forms.Label();
             this.Lbl_Output = new System.Windows.Forms.Label();
             this.Btn_Process = new System.Windows.Forms.Button();
             this.Btn_Reset = new System.Windows.Forms.Button();
+            this.Btn_IpSetting = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Btn_FileOpen
@@ -72,16 +72,6 @@
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
-            // 
-            // Lbl_FileName
-            // 
-            this.Lbl_FileName.AutoSize = true;
-            this.Lbl_FileName.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_FileName.Location = new System.Drawing.Point(10, 38);
-            this.Lbl_FileName.Name = "Lbl_FileName";
-            this.Lbl_FileName.Size = new System.Drawing.Size(96, 13);
-            this.Lbl_FileName.TabIndex = 5;
-            this.Lbl_FileName.Text = "No file selected";
             // 
             // Lbl_Exit
             // 
@@ -133,18 +123,28 @@
             this.Btn_Reset.UseVisualStyleBackColor = true;
             this.Btn_Reset.Click += new System.EventHandler(this.Btn_Reset_Click);
             // 
+            // Btn_IpSetting
+            // 
+            this.Btn_IpSetting.Location = new System.Drawing.Point(93, 12);
+            this.Btn_IpSetting.Name = "Btn_IpSetting";
+            this.Btn_IpSetting.Size = new System.Drawing.Size(75, 23);
+            this.Btn_IpSetting.TabIndex = 11;
+            this.Btn_IpSetting.Text = "IpConfig";
+            this.Btn_IpSetting.UseVisualStyleBackColor = true;
+            this.Btn_IpSetting.Click += new System.EventHandler(this.button1_Click);
+            // 
             // MyC_PlayGround
             // 
             this.AllowDrop = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(816, 614);
+            this.Controls.Add(this.Btn_IpSetting);
             this.Controls.Add(this.Btn_Reset);
             this.Controls.Add(this.Btn_Process);
             this.Controls.Add(this.Lbl_Output);
             this.Controls.Add(this.Lbl_Input);
             this.Controls.Add(this.Lbl_Exit);
-            this.Controls.Add(this.Lbl_FileName);
             this.Controls.Add(this.TxtB_Output);
             this.Controls.Add(this.TxtB_Input);
             this.Controls.Add(this.Btn_FileOpen);
@@ -163,11 +163,11 @@
         private System.Windows.Forms.TextBox TxtB_Input;
         private System.Windows.Forms.TextBox TxtB_Output;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
-        private System.Windows.Forms.Label Lbl_FileName;
         private System.Windows.Forms.Button Lbl_Exit;
         private System.Windows.Forms.Label Lbl_Input;
         private System.Windows.Forms.Label Lbl_Output;
         private System.Windows.Forms.Button Btn_Process;
         private System.Windows.Forms.Button Btn_Reset;
+        private System.Windows.Forms.Button Btn_IpSetting;
     }
 }

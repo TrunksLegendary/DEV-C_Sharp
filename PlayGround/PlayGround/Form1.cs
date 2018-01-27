@@ -8,6 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using System.Net;
+using System.Net.Sockets;
+
 
 namespace PlayGround
 {
@@ -29,6 +32,7 @@ namespace PlayGround
 
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
+                    Lbl_Output.Text = openFileDialog1.FileName;
                 TxtB_Output.Text = File.ReadAllText(openFileDialog1.FileName);
             }
 
@@ -75,6 +79,21 @@ namespace PlayGround
         {
             TxtB_Input.Text = "";
             TxtB_Output.Text = "";
+            Lbl_Output.Text = "Parsed Output";
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            IPAddress[] localIP = Dns.GetHostAddresses(Dns.GetHostName());
+            foreach (IPAddress address in localIP)
+            {
+                if(address.AddressFamily == AddressFamily.InterNetwork)
+                {
+                    TxtB_Output.Text = address.ToString();
+                }
+
+            }
+
         }
     }
 
