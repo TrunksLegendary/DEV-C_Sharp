@@ -35,9 +35,6 @@ namespace PlayGround
                     Lbl_Output.Text = openFileDialog1.FileName;
                 TxtB_Output.Text = File.ReadAllText(openFileDialog1.FileName);
             }
-
-
-
         }
 
         private void TxtB_Input_TextChanged(object sender, EventArgs e)
