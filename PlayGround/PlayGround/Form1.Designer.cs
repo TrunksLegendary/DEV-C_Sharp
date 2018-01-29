@@ -41,6 +41,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Btn_FileOpen
@@ -58,7 +59,7 @@
             this.TxtB_Input.Location = new System.Drawing.Point(12, 109);
             this.TxtB_Input.Multiline = true;
             this.TxtB_Input.Name = "TxtB_Input";
-            this.TxtB_Input.Size = new System.Drawing.Size(393, 461);
+            this.TxtB_Input.Size = new System.Drawing.Size(393, 315);
             this.TxtB_Input.TabIndex = 1;
             this.TxtB_Input.TextChanged += new System.EventHandler(this.TxtB_Input_TextChanged);
             // 
@@ -68,7 +69,7 @@
             this.TxtB_Output.Multiline = true;
             this.TxtB_Output.Name = "TxtB_Output";
             this.TxtB_Output.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.TxtB_Output.Size = new System.Drawing.Size(393, 461);
+            this.TxtB_Output.Size = new System.Drawing.Size(393, 315);
             this.TxtB_Output.TabIndex = 2;
             this.TxtB_Output.TextChanged += new System.EventHandler(this.TxtB_Output_TextChanged);
             // 
@@ -163,12 +164,22 @@
             this.button3.Text = "button3";
             this.button3.UseVisualStyleBackColor = true;
             // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(421, 11);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 15;
+            this.button4.Text = "button4";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
             // MyC_PlayGround
             // 
             this.AllowDrop = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(816, 614);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -205,5 +216,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
     }
 }
