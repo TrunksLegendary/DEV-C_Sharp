@@ -1,11 +1,4 @@
 
-
-<a href="https://github.com/TrunksLegendary/SentientWell"><img src="https://raw.githubusercontent.com/TrunksLegendary/SentientWell/master/Images/sw-cmyk.png?_sm_au_=iVV52Wf5fkJp7jnN" title="The Sentient Well" alt="SentientWell"></a>
-
-<!-- [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](https://github.com/TrunksLegendary/SentientWell) -->
-<!---***INSERT GRAPHIC HERE (include hyperlink in image)***--->
-
-
 # The Sentient Well
 # Public Developement Repository
  
