@@ -7,16 +7,16 @@
 <!---***INSERT GRAPHIC HERE (include hyperlink in image)***--->
 
 
-# Powershell Tools and Cmdlets
+# C# Projects and Tools
 
 ## Public Developement Repository
 
 ## Overview
-- The Powershell code found here is for education and training pourposes.
+- The C#l code found here is for education and training pourposes.
 
 > Motivation
 
-  The main driver for this repository is to learn about Powershell, its usage, and how to automate its creation.
+  The main driver for this repository is to learn about C#l, its usage, and how to automate its creation.
   My goal is to made all the code flexible and very portable
 
 This Repo currently has one directory called DEV, which will store all the developement code along with their respective readme and any instructiona lfiles required.
